@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="primary" type="color">#FF03A9F4</item>
+    <item name="primary_dark" type="color">#FF0277BD</item>
+
+    <item name="primary_alt1" type="color">#FF4CAF50</item>
+    <item name="primary_dark_alt1" type="color">#FF2E7D32</item>
+
+    <item name="primary_alt2" type="color">#2c3e50</item>
+    <item name="primary_dark_alt2" type="color">#2c3e41</item>
+
+    <item name="primary_alt3" type="color">#FF673AB7</item>
+    <item name="primary_dark_alt3" type="color">#FF4527A0</item>
+
+    <item name="primary_alt4" type="color">#FF607D8B</item>
+    <item name="primary_dark_alt4" type="color">#FF37474F</item>
+
+    <item name="primary_alt5" type="color">#ffb142</item>
+    <item name="primary_dark_alt5" type="color">#FFFF8F00</item>
+
+    <item name="primary_alt6" type="color">#FF3F51B5</item>
+    <item name="primary_dark_alt6" type="color">#FF283593</item>
+
+    <item name="dark_background" type="color">#1e272e</item>
+    <item name="black" type="color">#000000</item>
+    <item name="dark2_background" type="color">#222f3e</item>
+    <item name="deep_cove" type="color">#130f40</item>
+    <item name="forest_dark_blue" type="color">#0a3d62</item>
+    <item name="dark_dracula" type="color">#2d3436</item>
+
+    <item name="freezing_white" type="color">#dcdde1</item>
+    <item name="carmine_pink" type="color">#eb4d4b</item>
+    <item name="cristal_breeze" type="color">#dff9fb</item>
+    <item name="deep_purple" type="color">#30336b</item>
+    <item name="june_bud" type="color">#badc58</item><!--June bud-->
+    <item name="nectarine" type="color">#ffbe76</item>
+    <item name="aurora_green" type="color">#78e08f</item>
+    <item name="coral" type="color">#ff7f50</item>
+    <item name="ufo_green" type="color">#2ed573</item>
+    <item name="chill_blue" type="color">#1e90ff</item>
+    <item name="coral_blue" type="color">#12CBC4</item>
+    <item name="very_berry" type="color">#B53471</item>
+    <item name="grass" type="color">#009432</item>
+    <item name="purple_dark" type="color">#6F1E51</item>
+    <item name="energos" type="color">#C4E538</item>
+    <item name="sun_flower" type="color">#FFC312</item>
+    <item name="red_pastel" type="color">#ff6b6b</item>
+
+
+    <item name="trya" type="color">#ffb142 </item>
+
+
+    <item name="transparent" type="color">#00000000</item>
+    <item name="divider" type="color">#FFE0E0E0</item>
+    <item name="variable" type="color">#FF3F51B5</item>
+    <item name="activity_background" type="color">#FAFAFA</item>
+</resources>

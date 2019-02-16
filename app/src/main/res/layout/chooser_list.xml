@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ChooserActivity"
+    >
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:theme="?android:theme">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/back_icon"
+        />
+
+    <TextView
+        android:id="@+id/message_list_apps"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        android:text="Choose you application:"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textAppearance="@anim/grow_from_middle"
+        android:paddingTop="5dp"
+        android:textColor="@color/freezing_white"
+        android:layout_toRightOf="@id/back_button_2"/>
+
+</RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/device_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="?android:theme"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Loco xml export: Android string resources
+ Project: HTTP Shortcuts
+ Release: Working copy
+ Locale: zh, Chinese
+ Exported by: Roland Meyer
+ Exported at: Tue, 04 Sep 2018 19:42:06 +0200
+-->
+<resources>
+    <!-- The name of the app -->
+    <string name="app_name">HTTP 快捷方式</string>
+    <!-- The name of the default category -->
+    <string name="shortcuts">快捷方式</string>
+    <!-- The name used as a fallback for shortcuts without a name -->
+    <string name="shortcut_safe_name">快捷方式</string>
+    <!-- Title in editor when editing a shortcut -->
+    <string name="edit_shortcut">编辑快捷方式</string>
+    <!-- Title in editor when creating a new shortcut -->
+    <string name="create_shortcut">新建快捷方式</string>
+    <!-- Content description of icon image, accessibility information -->
+    <string name="icon_description">图标</string>
+    <!-- Label above input field in editor, for shortcut name -->
+    <string name="label_name">名称</string>
+    <!-- Label above input field in editor, for shortcut description -->
+    <string name="label_description">描述</string>
+    <!-- Label above input field in editor, for shortcut URL -->
+    <string name="label_url">地址</string>
+    <!-- Button to save changes made to shortcut/variable -->
+    <string name="save_button">保存</string>
+    <!-- Button to test changes made to shortcut -->
+    <string name="test_button">测试</string>
+    <!-- Label above input field in editor, for shortcut HTTP method (GET, POST, PUT, …) -->
+    <string name="label_method">方法</string>
+    <!-- Label above input field in editor, for shortcut authentication username -->
+    <string name="label_username">用户名</string>
+    <!-- Label above input field in editor, for shortcut authentication password -->
+    <string name="label_password">密码</string>
+    <!-- Label above input field in editor, for shortcut response type dropdown -->
+    <string name="label_feedback">响应的类型</string>
+    <!-- Option in dropdown, for shortcut response type: ignore response -->
+    <string name="feedback_none">忽略响应（静默执行）</string>
+    <!-- Option in dropdown, for shortcut response type: show simple Toast (Android notification) -->
+    <string name="feedback_simple_toast">简易吐司</string>
+    <!-- Option in dropdown, for shortcut response type: show simple Toast but only for errors (Android notification) -->
+    <string name="feedback_simple_toast_error">简易吐司（仅出错时）</string>
+    <!-- Option in dropdown, for shortcut response type: show complete response in Toast (Android notification) -->
+    <string name="feedback_response_toast">在吐司中显示响应</string>
+    <!-- Option in dropdown, for shortcut response type: show complete response in Toast for errors (Android notification) -->
+    <string name="feedback_response_toast_error">在吐司中显示响应（仅出错时）</string>
+    <string name="feedback_dialog">在对话框中显示响应</string>
+    <string name="feedback_activity">在窗口中显示响应</string>
+    <string name="action_place">发送到主屏幕</string>
+    <string name="action_run">执行</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_duplicate">生成副本</string>
+    <string name="action_delete">删除</string>
+    <string name="action_curl_export">cURL 导出</string>
+    <string name="action_move">搬到</string>
+    <string name="action_move_up">上移</string>
+    <string name="action_move_down">下移</string>
+    <string name="action_move_to_category">移至分类…</string>
+    <string name="no_shortcuts">还没有快捷方式</string>
+    <string name="no_variables">还没有变量</string>
+    <string name="confirm_delete_shortcut_message">确定删除这个快捷方式？</string>
+    <string name="confirm_discard_changes_message">您有尚未保存的更改，确定要丢弃吗？</string>
+    <string name="dialog_discard">丢弃</string>
+    <string name="title_activity_execute">执行快捷方式</string>
+    <string name="executed">%s 已执行</string>
+    <string name="shortcut_not_found">快捷方式不存在，您可能需要将其重新发送到主屏幕</string>
+    <string name="validation_name_not_empty">请输入一个名称</string>
+    <string name="validation_url_invalid">请输入一个有效的 HTTP(s) 地址</string>
+    <string name="error_http">%1$s 执行失败，状态码 %2$d</string>
+    <string name="error_other">%1$s 执行失败： %2$s</string>
+    <string name="error_set_image">无法使用该图片作为快捷方式的图标</string>
+    <string name="copy">%1$s (副本)</string>
+    <string name="choose_ipack">选择一个 Ipack</string>
+    <!-- Title of "Change Icon" dialog, where user can pick source/type of new icon for shortcut -->
+    <string name="change_icon">更改图标</string>
+    <!-- Option in "Change Icon" dialog, allows user to select a custom image to use as a shortcut icon -->
+    <string name="choose_image">使用自定义图片</string>
+    <!-- Option in "Change Icon" dialog, allows user to select an icon from an Ipack icon set (from a third-party icon app) -->
+    <string name="choose_ipack_icon">选择 Ipcak 图标</string>
+    <!-- Option in "Change Icon" dialog, allows user to select one of the built-in icons to use as a shortcut icon -->
+    <string name="choose_icon">选择内置的图标</string>
+    <string name="label_post_params">参数</string>
+    <string name="button_add_post_param">添加参数</string>
+    <string name="title_post_param_edit">编辑参数</string>
+    <string name="title_post_param_add">添加参数</string>
+    <string name="label_post_param_key">参数</string>
+    <string name="label_post_param_value">值</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_remove">移除</string>
+    <!-- Section title in shortcut editor, for section that contains options to specify the headers of the HTTP request -->
+    <string name="section_request_headers">头部</string>
+    <!-- Section title in shortcut editor, for section that contains options to specify the body of the HTTP request -->
+    <string name="section_request_body">Request Body</string>
+    <string name="button_add_custom_header">添加头部</string>
+    <string name="title_custom_header_edit">编辑头部</string>
+    <string name="title_custom_header_add">添加头部</string>
+    <string name="label_custom_header_key">头部</string>
+    <string name="label_custom_header_value">值</string>
+    <string name="label_custom_body">请求体</string>
+    <!-- Title of "Settings" screen, as well as name of "Settings" option in menu of main screen to leads to the settings screen -->
+    <string name="settings">设置</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_title_basic">基本设置</string>
+    <string name="settings_click_behavior">点击快捷方式的操作</string>
+    <string name="settings_click_behavior_run">执行快捷方式</string>
+    <string name="settings_click_behavior_edit">编辑快捷方式</string>
+    <string name="settings_click_behavior_menu">弹出菜单选项</string>
+    <string name="settings_title_import_export">导入/导出</string>
+    <string name="settings_import">导入快捷方式</string>
+    <string name="settings_export">导出快捷方式</string>
+    <string name="export_instructions">请选择快捷方式的导出目录。请注意！自定义图标将无法导出。</string>
+    <string name="export_success">成功导出快捷方式</string>
+    <string name="export_failed">导出快捷方式失败</string>
+    <string name="export_in_progress">正在导出快捷方式……</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="import_instructions">请选择快捷方式的导入文件。请注意！您当前的快捷方式将可能会被覆盖。</string>
+    <string name="import_failed">导入快捷方式失败</string>
+    <string name="import_success">成功导入快捷方式</string>
+    <string name="import_in_progress">正在导出快捷方式……</string>
+    <string name="label_timeout">超时时间</string>
+    <string name="timeout_format">%1$s （%2$s）</string>
+    <!-- Timeout option: short, i.e. only a few seconds -->
+    <string name="timeout_short">短</string>
+    <!-- Timeout option: medium, i.e. around 10 seconds -->
+    <string name="timeout_medium">中</string>
+    <!-- Timeout option: long, i.e. around 30 seconds -->
+    <string name="timeout_long">长</string>
+    <!-- Timeout option: very long, i.e. around 60 seconds -->
+    <string name="timeout_very_long">很长</string>
+    <string name="settings_about">关于应用</string>
+    <string name="settings_mail">联系开发者</string>
+    <string name="settings_mail_summary">提问题，请求新特性，其它……</string>
+    <string name="settings_github">在 Github 查看</string>
+    <string name="settings_github_summary">是的，这款应用程序是开源的</string>
+    <string name="changelog_title_whats_new">有哪些更新？</string>
+    <string name="changelog_title">更新日志</string>
+    <string name="changelog_checkbox_show_at_startup">在启动时显示</string>
+    <!-- Message displayed when the shortcut cannot be executed because there is no internet connection. %1$s is a placeholder for the shortcut name. -->
+    <string name="execution_delayed">当网络连接可用时 %1$s 将会被执行</string>
+    <string name="label_retry_policy">当未连接到互联网时</string>
+    <string name="retry_policy_none">取消请求</string>
+    <string name="retry_policy_delayed">等待连接</string>
+    <string name="settings_play_store">在 Play 商店查看</string>
+    <string name="settings_play_store_summary">非常感谢您的评分和评价</string>
+    <string name="shortcut_duplicated">%1$s 已生成副本</string>
+    <string name="shortcut_moved">%1$s 已移动</string>
+    <string name="shortcut_deleted">%1$s 已删除</string>
+    <string name="shortcut_placed">%1$s 已发送到主屏幕</string>
+    <string name="dialog_delete">删除</string>
+    <string name="section_appearance">外观</string>
+    <string name="section_basic_request">基本设置</string>
+    <string name="section_response">响应设置</string>
+    <string name="section_advanced_settings">高级设置</string>
+    <string name="section_authentication">身份认证</string>
+    <string name="label_authentication_method">Authentication Method</string>
+    <string name="warning_icon_or_name_change">请注意，在修改快捷方式的名称和图标后，主屏幕上对应的名称和图标并不会同步改变。你必须再次将其添加到主屏幕，随后这些修改才会生效。</string>
+    <string name="dialog_checkbox_do_not_show_again">不要再提示</string>
+    <string name="label_certificates">证书</string>
+    <!-- Label above checkbox in editor, for accepting certificates. Includes a security warning as it is discouraged to use this option. -->
+    <string name="label_accept_all_certificates">接受所有证书</string>
+    <string name="title_licenses">鸣谢</string>
+    <string name="settings_licenses">鸣谢</string>
+    <string name="settings_licenses_summary">使用到的库和资源</string>
+    <string name="title_categories">分类</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_change_category_layout_type">Change layout type</string>
+    <string name="message_layout_type_changed">Layout type changed</string>
+    <string name="layout_type_linear_list">List</string>
+    <string name="layout_type_grid">Grid</string>
+    <string name="title_rename_category">重命名分类</string>
+    <string name="placeholder_category_name">输入分类名称…</string>
+    <string name="placeholder_value">值</string>
+    <string name="title_create_category">新建分类</string>
+    <string name="confirm_delete_category_message">确定删除这个分类？该分类下的所有快捷方式也将被删除。</string>
+    <string name="message_category_renamed">分类已重命名</string>
+    <string name="message_category_created">分类已创建</string>
+    <string name="message_category_deleted">分类已删除</string>
+    <plurals name="shortcut_count">
+        <item quantity="one">%d shortcut</item>
+        <item quantity="other">%d shortcuts</item>
+    </plurals>
+    <string name="title_move_to_category">移动到分类</string>
+    <!-- Name/title to describe what the plugin action does, used by external plugins, e.g. Tasker -->
+    <string name="plugin_name">执行 HTTP 快捷方式</string>
+    <string name="title_variables">变量</string>
+    <string name="edit_variable">编辑变量</string>
+    <string name="create_variable">新建变量</string>
+    <string name="label_variable_type">类型</string>
+    <string name="label_variable_key">键</string>
+    <string name="label_variable_title">对话框标题（可选）</string>
+    <string name="label_variable_date_format">Date Format</string>
+    <string name="variable_type_constant">常量</string>
+    <string name="variable_type_text">输入文本</string>
+    <string name="variable_type_number">输入数字</string>
+    <string name="variable_type_password">输入密码</string>
+    <string name="variable_type_select">选项</string>
+    <string name="variable_type_toggle">切换</string>
+    <string name="variable_type_date">Date Input</string>
+    <string name="variable_type_color">输入色值</string>
+    <string name="warning_invalid_variable_key">变量的键名只能包含字母和数字</string>
+    <string name="confirm_delete_variable_message">确定删除这个变量？</string>
+    <string name="variable_deleted">%1$s 已删除</string>
+    <string name="label_url_encode">URL 编码</string>
+    <string name="label_json_encode">JSON 编码</string>
+    <string name="section_basic_variable_settings">基本设置</string>
+    <string name="validation_key_non_empty">变量的键名不能为空</string>
+    <string name="validation_key_already_exists">已经有一个键名相同的变量了</string>
+    <string name="title_add_toggle_option">添加值</string>
+    <string name="button_add_toggle_option">添加值</string>
+    <string name="section_toggle_options">切换值</string>
+    <string name="title_add_select_option">添加选项</string>
+    <string name="button_add_select_option">添加选项</string>
+    <string name="section_select_options">可选项</string>
+    <string name="label_select_label">标签</string>
+    <string name="label_select_value">值</string>
+    <string name="button_show_help">帮助信息</string>
+    <string name="help_title_variables">变量</string>
+    <string name="error_not_enough_toggle_values">请至少添加两个值</string>
+    <string name="error_not_enough_select_values">Please add at least one selectable option.</string>
+    <string name="error_invalid_date_format">The date format is not valid.</string>
+    <string name="share_button">分享</string>
+    <string name="share_title">分享…</string>
+    <string name="progress_dialog_message">%1$s…</string>
+    <string name="section_input_options">输入选项</string>
+    <string name="label_remember_value">保存值</string>
+    <string name="action_cancel_pending">取消正在处理的请求</string>
+    <string name="pending_shortcut_execution_cancelled">%1$s 已取消</string>
+    <string name="action_send_to">发送到…</string>
+    <string name="error_not_suitable_shortcuts">没有找到合适的快捷方式，要使用这个特性。你必须至少要有一个使用了共享变量的快捷方式。查阅文档中关于变量部分以获取更多信息。</string>
+    <string name="error_sharing_feature_not_available_yet">很抱歉，目前还不支持在快捷方式中共享文本文件，后续可能会添加上，现阶段您可以共享文本。查阅文档中关于变量部分以获取更多信息。感谢您的理解。</string>
+    <string name="label_allow_share_into">允许“共享”</string>
+    <string name="theme_blue">蓝色</string>
+    <string name="theme_green">绿色</string>
+    <string name="theme_red">红色</string>
+    <string name="theme_grey">灰色</string>
+    <string name="theme_orange">橙色</string>
+    <string name="theme_purple">紫色</string>
+    <string name="theme_indigo">靛蓝色</string>
+    <string name="title_export">导出……</string>
+    <string name="button_export_to_filesystem">本地存储</string>
+    <string name="button_export_send_to">其他应用</string>
+    <string name="title_import">导入……</string>
+    <string name="button_import_from_filesystem">本地存储</string>
+    <string name="button_import_from_general">文档</string>
+    <!-- Option 1 in dialog to create new shortcut: from scratch (i.e., start with a blank editor) -->
+    <string name="button_create_new">新建快捷方式</string>
+    <!-- Option 2 in dialog to create new shortcut: from cURL command (i.e., parse a cURL command and prepopulate editor) -->
+    <string name="button_curl_import">从 cURL 命令行创建</string>
+    <string name="title_curl_import">从 cURL 命令行创建</string>
+    <string name="instructions_curl_import">在下面输入或粘贴一条 cURL 命令以新建一个快捷方式。请注意，这是一个实验性功能，目前只能识别部分 cURL 参数。</string>
+    <string name="curl_import_button">导入</string>
+    <string name="authentication_none">No Authentication</string>
+    <string name="authentication_basic">Basic Authentication</string>
+    <string name="authentication_digest">Digest Authentication</string>
+    <!-- Label for option in shortcut editor, selecting it will cause the shortcut to appear in the launcher menu, i.e., when long-pressing the app icon on the home screen -->
+    <string name="label_launcher_shortcut">Show as app shortcut on launcher</string>
+    <!-- error message displayed when something goes wrong (e.g. response too big) when trying to share/export a response/text -->
+    <string name="error_share_failed">An error occurred while sharing.</string>
+    <plurals name="seconds">
+        <!-- Used in various places to indicate a number of seconds, e.g. for a delay. %s is a placeholder for the actual number. -->
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="minutes">
+        <!-- Used in various places to indicate a number of minutes, e.g. for a delay. %s is a placeholder for the actual number. -->
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <string name="label_delay_execution">Delay execution</string>
+    <!-- Option to delay the execution of a shortcut. Default option is "No delay" -->
+    <string name="label_no_delay">No delay</string>
+    <string name="label_variable_time_format">Time Format</string>
+    <string name="variable_type_time">Time Input</string>
+    <string name="error_invalid_time_format">The time format is not valid.</string>
+    <!-- Generic error shown when an action fails because the device does not support it, e.g. importing from another app -->
+    <string name="error_not_supported">This feature is not supported on your device.</string>
+    <!-- Section title on settings screen for privacy related settings -->
+    <string name="settings_title_privacy">Privacy</string>
+    <!-- Setting title for crash reporting settings, as part of privacy settings (opt-in/opt-out) -->
+    <string name="settings_crash_reporting">Crash Reporting</string>
+    <!-- Option for crash reporting opt in -->
+    <string name="settings_crash_reporting_allow">Send crash reports to help improve the app</string>
+    <!-- Option for crash reporting opt out -->
+    <string name="settings_crash_reporting_disallow">Don\'t send any crash reports</string>
+    <!-- Title of section in settings that allows user to click to open privacy policy dialog -->
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <!-- Summary/subtitle of section in settings that allows user to click to open privacy policy dialog -->
+    <string name="settings_privacy_policy_summary">Nope, not stealing your data.</string>
+    <!-- Title of dialog that shows the privacy policy -->
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <!-- Type of variable: Slider, i.e. a horizontal bar that allows to pick a number by sliding a knob left or right -->
+    <string name="variable_type_slider">Number Slider</string>
+    <!-- Label above input box, for minimum (numeric) value of a horizontal slider -->
+    <string name="label_variable_slider_min">Minimum</string>
+    <!-- Label above input box, for maximum (numeric) value of a horizontal slider -->
+    <string name="label_variable_slider_max">Maximum</string>
+    <!-- Label above input box, for step size (numeric) value of a horizontal slider -->
+    <string name="label_variable_slider_step">Step Size</string>
+    <!-- error message displayed when "Maximum" is lesser than or equal to "Minimum" for "slider" variable type -->
+    <string name="error_slider_max_not_greater_than_min">The maximum must be greater than the minimum.</string>
+    <!-- Button text: Set image as icon (after selecting and editing) -->
+    <string name="button_apply_icon">Apply icon</string>
+    <!-- Title of option in settings to show change changelog of current and past versions -->
+    <string name="settings_changelog">Changelog</string>
+    <!-- Subtitle/summary of "Changelog" option in settings, showing the current app version number -->
+    <string name="settings_changelog_summary">Version %1$s</string>
+    <string name="title_edit_toggle_option">Edit Value</string>
+    <string name="title_edit_select_option">Edit Option</string>
+    <!-- Instructions shown in dialog when user clicks the variables button in the shortcut editor but doesn't have any variables configured yet -->
+    <string name="help_text_variable_button">This button allows you to include placeholders for variables, i.e., dynamic values, into your shortcut.\n\nYou don\'t have any variables configured yet. You can do so by clicking the CREATE button below.</string>
+    <!-- Instructions shown in dialog when user clicks the variables button in the variable editor but doesn't have any variables configured yet -->
+    <string name="help_text_variable_button_for_variables">This button allows you to include placeholders for the values of other variables into this one.\n\nYou don\'t have any variables configured yet, however.</string>
+    <!-- Text of button on help dialog that is displayed when no variables exist yet. Clicking it allows the user to go to the variables settings to create a first variable -->
+    <string name="button_create_first_variable">Create</string>
+    <!-- Title of dialog that allows users to pick a variable from a list to insert its placeholder somewhere -->
+    <string name="dialog_title_variable_selection">Variables</string>
+    <!-- Option shown on variable selection dialog, clicking it opens variable editor -->
+    <string name="label_edit_variables">Edit variables</string>
+    <string name="title_create_new_shortcut_options_dialog">Create New Shortcut</string>
+    <!-- Button text: translate app (prompt to help & become a translator) -->
+    <string name="settings_help_translate">Translate App</string>
+    <!-- Summary/subtitle of section in settings that prompts user to help translate the app -->
+    <string name="settings_help_translate_summary">Help me make this app better!</string>
+    <!-- Blurb/short description of plugin action (for Tasker integration), where %1$s is a placeholder for the shortcut name. -->
+    <string name="plugin_blurb_execute_task">Execute shortcut \"%1$s\"</string>
+    <!-- Label of dropdown to select the request body type in shortcut editor -->
+    <string name="label_request_body_type">Request Body Type</string>
+    <!-- Dropdown option for request body: form-data (i.e. list of parameters) -->
+    <string name="request_body_option_form_data">Parameters (form-data)</string>
+    <!-- Dropdown option for request body: x-www-form-urlencoded (i.e. list of parameters) -->
+    <string name="request_body_option_x_www_form_urlencoded">Parameters (x-www-form-urlencoded)</string>
+    <!-- Dropdown option for request body: custom text (i.e. enter a custom Content-Type and a request body as text) -->
+    <string name="request_body_option_custom_text">Custom Text</string>
+    <!-- Label above input box for Request Content-Type -->
+    <string name="label_content_type">Content-Type</string>
+    <!-- Button to copy the cURL export of a shortcut to the clipboard -->
+    <string name="button_copy_curl_export">Copy</string>
+    <!-- Title of dialog that allows user to pick an icon from the built-in icons -->
+    <string name="title_choose_icon">Choose Built-in Icon</string>
+    <!-- Section title in shortcut editor: Actions (i.e. what should happen before and after shortcut executes) -->
+    <string name="section_actions">Actions</string>
+    <!-- Title of dialog that allows users to pick a constant variable from a list to insert its placeholder somewhere -->
+    <string name="dialog_title_variable_selection_constants_only">Variables (Constants Only)</string>
+    <!-- Button to add actions to a shortcut (to define what should happen on success, on failure, etc.) -->
+    <string name="button_add_action">Add Action</string>
+    <!-- Section title in shortcut editor: "Before actions", i.e., shown above list of actions that execute before the shortcut -->
+    <string name="label_actions_before">Before Actions</string>
+    <!-- Section title in shortcut editor: "Success actions", i.e., shown above list of actions that execute after the shortcut executed successfully -->
+    <string name="label_actions_success">Success Actions</string>
+    <!-- Section title in shortcut editor: "Failure actions", i.e., shown above list of actions that execute after the shortcut executed with a failure -->
+    <string name="label_actions_failure">Failure Actions</string>
+    <!-- Shown as a placeholder for the title field of an action of unknown type. This should never happen. -->
+    <string name="action_type_unknown_title">Unknown action</string>
+    <!-- Shown as a placeholder for the description field of an action of unknown type. This should never happen. -->
+    <string name="action_type_unknown_description">Unknown Action</string>
+    <!-- Shortcut Action Title: Show Toast (small popup message) -->
+    <string name="action_type_toast_title">Show Toast</string>
+    <!-- Shortcut Action Description: Show Toast (small popup message) -->
+    <string name="action_type_toast_description">Show message \"%1$s\"</string>
+    <!-- Shortcut Action Editor Label: Message (to show in a toast) -->
+    <string name="action_type_toast_edit_label_message">Message</string>
+    <!-- Shortcut Action Title: Vibrate -->
+    <string name="action_type_vibrate_title">Vibrate</string>
+    <!-- Shortcut Action Description: Vibrate, describes the vibration pattern -->
+    <string name="action_type_vibrate_description_pattern_0">1 short vibration</string>
+    <!-- Shortcut Action Description: Vibrate, describes the vibration pattern -->
+    <string name="action_type_vibrate_description_pattern_1">1 long vibration</string>
+    <!-- Shortcut Action Description: Vibrate, describes the vibration pattern -->
+    <string name="action_type_vibrate_description_pattern_2">3 short vibrations</string>
+    <!-- Shortcut Action Editor Label: Vibration pattern -->
+    <string name="action_type_vibrate_edit_label_pattern">Pattern</string>
+    <!-- Shortcut Action Editor Label: Checkbox, whether to wait for the vibration to complete -->
+    <string name="action_type_vibrate_edit_label_wait_until_complete">Wait for pattern to complete</string>
+    <!-- Dialog title: Add action (shown above list of action types to select) -->
+    <string name="title_add_action">Add Action</string>
+    <!-- Shortcut Action Title: Change Shortcut Name -->
+    <string name="action_type_rename_shortcut_title">Rename Shortcut</string>
+    <!-- Shortcut Action Description: Change Shortcut Name -->
+    <string name="action_type_rename_shortcut_description">Rename Shortcut to \"%1$s\"</string>
+    <!-- Shortcut Action Editor Label: New name for shortcut -->
+    <string name="action_type_rename_shortcut_edit_label_new_name">New name</string>
+    <!-- Action: Edit the current action. Shown in dropdown menu when selecting an action in the shortcut editor -->
+    <string name="action_edit_action">Edit action</string>
+    <!-- Action: Remove the current action. Shown in dropdown menu when selecting an action in the shortcut editor -->
+    <string name="action_remove_action">Remove action</string>
+    <!-- Shortcut Action Title: Extract (HTTP) Status Code (and store in variable) -->
+    <string name="action_type_extract_status_code_title">Extract Status Code</string>
+    <!-- Shortcut Action Description: Extract status code (from HTTP response) and store in variable -->
+    <string name="action_type_extract_status_code_description">Store response status code in \"%1$s\"</string>
+    <!-- Shortcut Action Editor Help Text: Extract status code, shown in action editor -->
+    <string name="action_type_extract_status_code_help_text">Extracts the status code of the HTTP response and stores it in a variable.</string>
+    <!-- Shortcut Action Editor Label: Target variable (to store a value) -->
+    <string name="action_type_target_variable">Target variable</string>
+    <!-- Shortcut Action Editor Placeholder: Shows when no variable was selected yet -->
+    <string name="action_type_target_variable_no_variable_selected">No variable selected</string>
+    <!-- Shortcut Action Title: Extract (HTTP) header (and store in variable) -->
+    <string name="action_type_extract_header_title">Extract Header</string>
+    <!-- Shortcut Action Description: Extract header (from HTTP response) and store in variable -->
+    <string name="action_type_extract_header_description">Store response header \"%1$s\" in \"%2$s\"</string>
+    <!-- Shortcut Action Editor Help Text: Extract HTTP header, shown in action editor -->
+    <string name="action_type_extract_header_help_text">Extracts the value of a specific header from the HTTP response and stores it in a variable. If no such header is present this action does nothing.</string>
+    <!-- Shortcut Action Editor Label: (HTTP) header (to be extracted from response) -->
+    <string name="action_type_extract_header_label_header_key">Header</string>
+    <!-- Shortcut Action Title: Extract cookie from HTTP response (and store in variable) -->
+    <string name="action_type_extract_cookie_title">Extract Cookie</string>
+    <!-- Shortcut Action Description: Extract cookie (from HTTP response) and store in variable -->
+    <string name="action_type_extract_cookie_description">Store cookie \"%1$s\" in \"%2$s\"</string>
+    <!-- Shortcut Action Editor Help Text: Extract cookie, shown in action editor -->
+    <string name="action_type_extract_cookie_help_text">Extracts the value of a specific cookie from the HTTP response and stores it in a variable. If no such cookie is present this action does nothing.</string>
+    <!-- Shortcut Action Editor Label: cookie name (to be extracted from HTTP response) -->
+    <string name="action_type_extract_cookie_label_cookie_name">Cookie name</string>
+    <!-- Shortcut Action Title: Extract from (HTTP response) body (and store in variable) -->
+    <string name="action_type_extract_body_title">Extract from Body</string>
+    <!-- Shortcut Action Description: Extract from HTTP response body (from HTTP response) and store in variable -->
+    <string name="action_type_extract_body_description">Store in \"%1$s\"</string>
+    <!-- Shortcut Action Editor Help Text: Extract HTTP response body, or part of it, shown in action editor -->
+    <string name="action_type_extract_body_help_text">Extracts the body from the HTTP response, or part of it, and stores it in a variable. If the specified part is not present this action does nothing.</string>
+    <!-- Shortcut Action Editor Label: Allows to select the type of how text is extracted from the HTTP response body -->
+    <string name="action_type_extract_body_label_options">Extraction type</string>
+    <!-- Shortcut Action Editor Option Label: One of the options in the dropdown to select how text is extracted from the HTTP response body: use the full body, i.e., all of it as is -->
+    <string name="action_type_extract_body_description_option_full_body">Entire body</string>
+    <!-- Shortcut Action Editor Option Label: One of the options in the dropdown to select how text is extracted from the HTTP response body: use a substring, i.e., only a part of it -->
+    <string name="action_type_extract_body_description_option_substring">Substring</string>
+    <!-- Shortcut Action Editor Option Label: One of the options in the dropdown to select how text is extracted from the HTTP response body: try to parse it as JSON and use a specific part -->
+    <string name="action_type_extract_body_description_option_json">Parse JSON</string>
+    <!-- Shortcut Action Editor Option Label: Allows to select the start index of the substring option when extracting text from the HTTP response body -->
+    <string name="action_type_extract_body_label_substring_start_index">Substring start index</string>
+    <!-- Shortcut Action Editor Option Label: Allows to select the end index of the substring option when extracting text from the HTTP response body -->
+    <string name="action_type_extract_body_label_substring_end_index">Substring end index</string>
+    <!-- Shortcut Action Editor Option Label: Allows to specify the JSON path when using the JSON parse option when extracting text from the HTTP response body -->
+    <string name="action_type_extract_body_label_json_path">JSON path</string>
+    <!-- Shortcut Action Editor Help Text: Explains how the substring option can be used when extracting text from the HTTP response body -->
+    <string name="action_type_extract_body_help_text_substring_option">Use 0 to denote the start/end of the string. Use negative numbers to denote an offset from the end of the string.</string>
+    <!-- Shortcut Action Editor Help Text: Explains how the JSON option can be used when extracting text from the HTTP response body -->
+    <string name="action_type_extract_body_help_text_json_option">Describe the path within the JSON response, separated by dots. E.g. \"2.title\" would mean that the response is to be interpreted as a JSON array, of which the 2nd element should be used, which is then interpreted as a JSON object that contains a \"title\" field, from which the value should be extracted.</string>
+    <!-- Generic error shown when something went wrong and there is no better error message available -->
+    <string name="error_generic">Something went wrong…</string>
+    <!-- Shortcut Action Title: Set the value of a variable -->
+    <string name="action_type_set_variable_title">Set Variable</string>
+    <!-- Shortcut Action Description: Set the value (%2$s placeholder) of a variable (%1$s placeholder) -->
+    <string name="action_type_set_variable_description">Set \"%1$s\" to \"%2$s\"</string>
+    <!-- Shortcut Action Editor Help Text: Set the value of a variable -->
+    <string name="action_type_set_variable_help_text">Changes the value of a variable.</string>
+    <!-- Shortcut Action Editor Label: allows to specify the new value of a variable -->
+    <string name="action_type_set_variable_label_new_value">New value</string>
+    <!-- Label above dropdown in shortcut editor, allows user to decide how shortcut is executed: in app or in external browser -->
+    <string name="label_execution_type">Execute using…</string>
+    <!-- Option in dropdown when selecting how shortcut should be executed: Inside the app itself (vs. in external browser) -->
+    <string name="execution_type_option_in_app">App</string>
+    <!-- Option in dropdown when selecting how shortcut should be executed: In external browser (vs. inside the app itself) -->
+    <string name="execution_type_option_in_browser">Browser</string>
+    <!-- Shortcut Action Title: Trigger a shortcut, i.e., execute it -->
+    <string name="action_type_trigger_shortcut_title">Trigger Shortcut</string>
+    <!-- Shortcut Action Description: Trigger a specific shortcut, %1$s is a placeholder for the name of that shortcut -->
+    <string name="action_type_trigger_shortcut_description">Trigger \"%1$s\"</string>
+    <!-- Shortcut error message: Maximum recursion depth reached, i.e., a potential infinite loop was detected and stopped -->
+    <string name="action_type_trigger_shortcut_error_recursion_depth_reached">Maximum recursion depth reached. Shortcut will not be triggered.</string>
+    <!-- Shortcut Action Editor Label: Allows to pick a shortcut (used in different places) -->
+    <string name="action_type_trigger_shortcut_label_shortcut_name">Shortcut</string>
+    <!-- Shortcut Action Editor placeholder: No shortcut selected, used in different places where selecting a shortcut is necessary -->
+    <string name="action_target_shortcut_no_shortcut_selected">No shortcut selected</string>
+    <!-- Error message in Action Editor when selecting a shortcut is not possible because there are none yet, used in different places -->
+    <string name="action_target_shortcut_error_no_shortcuts">You don\'t have any shortcuts yet.</string>
+    <!-- Error message: Shown in toast when the user tries to execute a shortcut with an invalid URL -->
+    <string name="error_invalid_url">Invalid URL. Must be HTTP(S).</string>
+    <!-- Title: Dialog title when selecting how to place a shortcut on the homescreen -->
+    <string name="title_select_placement_method">Placement Method</string>
+    <!-- Description: Dialog text when selecting how to place a shortcut on the homescreen -->
+    <string name="description_select_placement_method">Select the method to use for placing the shortcut. If you encounter problems with the \"Default\" method you may try the \"Legacy\" method instead. Please note that some features (e.g. changing shortcut name) are not available with the Legacy method.</string>
+    <!-- Label: Preferred option in dialog for selecting how to place the shortcut on the homescreen: Default (method) -->
+    <string name="label_placement_method_default">Default</string>
+    <!-- Label: Alternative option in dialog for selecting how to place the shortcut on the homescreen: Legacy (method) -->
+    <string name="label_placement_method_legacy">Legacy</string>
+</resources>

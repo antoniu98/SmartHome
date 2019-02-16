@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/settings_title_basic">
+
+
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:icon="@drawable/black_user_male"
+            android:summary="Server: Who are YOU?"
+            android:key="credentials"
+            android:entries="@array/credentials"
+            android:entryValues="@array/credentials"
+            android:title="@string/settings_credentials"/>
+
+
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:defaultValue="run"
+            android:entries="@array/click_behaviors"
+            android:entryValues="@array/click_behaviors_values"
+            android:icon="@drawable/settings_click"
+            android:key="click_behavior"
+            android:persistent="true"
+            android:title="@string/settings_click_behavior"/>
+
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_lock_black"
+            android:key="lock_settings"
+            android:summary="@string/settings_lock_app_summary"
+            android:title="@string/settings_lock_app_title"/>
+
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:defaultValue="blue"
+            android:entries="@array/themes"
+            android:entryValues="@array/themes_values"
+            android:icon="@drawable/ic_theme"
+            android:key="theme"
+            android:persistent="true"
+            android:title="@string/settings_theme"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_title_import_export">
+
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/settings_import"
+            android:key="import"
+            android:title="@string/settings_import"/>
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/settings_export"
+            android:key="export"
+            android:title="@string/settings_export"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_title_privacy">
+
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/file_document"
+            android:key="privacy_policy"
+            android:summary="@string/settings_privacy_policy_summary"
+            android:title="@string/settings_privacy_policy"/>
+
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:defaultValue="true"
+            android:entries="@array/crash_reporting"
+            android:entryValues="@array/crash_reporting_values"
+            android:icon="@drawable/bug"
+            android:key="crash_reporting"
+            android:persistent="true"
+            android:title="@string/settings_crash_reporting"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_about">
+
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_version"
+            android:key="changelog"
+            android:title="@string/settings_changelog"/>
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_email_outline"
+            android:key="mail"
+            android:summary="@string/settings_mail_summary"
+            android:title="@string/settings_mail"/>
+
+
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_google_play"
+            android:key="play_store"
+            android:summary="@string/settings_play_store_summary"
+            android:title="@string/settings_play_store"/>
+
+
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_github_circle"
+            android:key="github"
+            android:summary="@string/settings_github_summary"
+            android:title="@string/settings_github"/>
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_translate"
+            android:key="translate"
+            android:summary="@string/settings_help_translate_summary"
+            android:title="@string/settings_help_translate"/>
+        <com.afollestad.materialdialogs.prefs.MaterialPreference
+            android:icon="@drawable/ic_licenses"
+            android:key="licenses"
+            android:summary="@string/settings_licenses_summary"
+            android:title="@string/settings_licenses"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
